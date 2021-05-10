@@ -1,0 +1,39 @@
+body {
+  min-width: max-content;
+}
+
+#bgC {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+#expand {
+  min-width: 100px;
+}
+#body{
+  background-color: #5f5353; 
+  display: flex; 
+  text-align: justify; 
+  align-items: center; 
+  justify-content:center; 
+  color: beige; 
+  font-family:serif;
+}
+#body2{
+  display: flex; 
+  justify-content: center; 
+  text-align: center; 
+  flex-wrap: wrap; 
+  background-color: burlywood; 
+  padding-bottom: 100px; 
+  min-height: 100%;
+}
+#space{
+  width: 100%; 
+  align-items: center; 
+  font-size: large; 
+  margin-left:100px
+}
+#textt{
+  width: 100%;
+}

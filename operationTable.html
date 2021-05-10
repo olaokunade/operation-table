@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="operationTable.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container" id="body">
+        <label for="">Row</label>
+        <input type="number" id="row" step="1" style="flex-basis: 10%;"> <br> <br>
+
+        <label for="" style="margin-left: 20px;">Column</label>
+        <input type="number" id="col" step="1" style="flex-basis: 10%; margin-right: 10%;"> <br> <br>
+
+        <select id="operation" style="flex-basis: 10%;">
+            <option value="Subtraction">Subtraction</option>
+            <option value="Multiplication">Multiplication</option>
+            <option value="Addition">Addition</option>
+            <option value="Division">Division</option>
+        </select> <br><br>
+        <input id="press" onclick="filterData()" value="ok" type="button" style="margin-left: 20px;">
+    </div>
+
+    <div class="container" id="body2">
+        <h2 id="textt"></h2>
+        <div id="answer" id="space"></div>
+    </div>
+
+    <script src="operationTable.js"></script>
+</body>
+
+</html>
